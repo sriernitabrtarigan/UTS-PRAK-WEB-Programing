@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERTACI CAFE</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>ERTACI CAFE</h1>
+      <p>Restoran Khas Melayu</p>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+      <button onclick="pesanSekarang()" class="btn-order">Pesan Sekarang</button>
+
+      <!-- NAV -->
+      <nav>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#form">Registrasi</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- SECTION 1 -->
+      <section>
+        <h2 class="welcome-title">Selamat Datang di ERTACI CAFE</h2>
+        <p>Nikmati kelezatan masakan khas Melayu yang kaya rasa dan dibuat dengan penuh cinta. Dari makanan hingga minuman segar, kami siap menemani waktu santai dan momen spesial Anda.</p>
+      </section>
+
+      <!-- SECTION MENU -->
+      <section id="menu" class="menu">
+        <h2 class="menu-title">🍗 Makanan</h2>
+        <div class="card">
+          <img src="rendang.jpg" />
+          <div class="card-content">
+            <h3>Rendang</h3>
+            <p class="price">Rp 40.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img src="ayam percik.jpeg" />
+          <div class="card-content">
+            <h3>Ayam Percik</h3>
+            <p class="price">Rp 28.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Nasi_Lemak_Tradisional.jpg" />
+          <div class="card-content">
+            <h3>Nasi Lemak</h3>
+            <p class="price">Rp 25.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="sambal udang.jpg" />
+          <div class="card-content">
+            <h3>Sambal Udang</h3>
+            <p class="price">Rp 30.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="laksa.jpg" />
+          <div class="card-content">
+            <h3>Laksa</h3>
+            <p class="price">Rp 26.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="ayam-masak-merah.jpg" />
+          <div class="card-content">
+            <h3>Ayam Masak Merah</h3>
+            <p class="price">Rp 20.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Ayam berempah.jpg" />
+          <div class="card-content">
+            <h3>Ayam Goreng Berempah</h3>
+            <p class="price">Rp 23.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="gulai patin.jpg" />
+          <div class="card-content">
+            <h3>Gulai Ikan Patin</h3>
+            <p class="price">Rp 25.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <h2 class="menu-title">🥤 Minuman</h2>
+
+        <div class="card">
+          <img src="Es Jeruk.jpg" />
+          <div class="card-content">
+            <h3>Es Jeruk</h3>
+            <p class="price">Rp 10.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="es kelapa.jpg" />
+          <div class="card-content">
+            <h3>Es Kelapa Muda</h3>
+            <p class="price">Rp 15.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="strawberi milk.jpg" />
+          <div class="card-content">
+            <h3>Strawberi milk</h3>
+            <p class="price">Rp 15.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="americano.jpeg" />
+          <div class="card-content">
+            <h3>Americano</h3>
+            <p class="price">Rp 10.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="cappucino.jpg" />
+          <div class="card-content">
+            <h3>Cappuccino</h3>
+            <p class="price">Rp 15.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Jus alpukat.jpg" />
+          <div class="card-content">
+            <h3>Jus Alpukat</h3>
+            <p class="price">Rp 12.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="milshake.jpg" />
+          <div class="card-content">
+            <h3>Milkshake Coklat</h3>
+            <p class="price">Rp 18.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="lemon tea.jpeg" />
+          <div class="card-content">
+            <h3>Lemon Tea</h3>
+            <p class="price">Rp 8.000</p>
+            <div class="qty">
+    <button class="minus">-</button>
+    <span class="jumlah">0</span>
+    <button class="plus">+</button>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION FORM -->
+      <section id="form">
+        <h2>Registrasi Pengguna</h2>
+
+        <form id="registerForm">
+          <label>Nama:</label>
+          <input type="text" id="nama" required />
+          <small class="error"></small>
+
+          <label>Email:</label>
+          <input type="email" id="email" required />
+          <small class="error"></small>
+
+          <label>Password:</label>
+          <input type="password" id="password" required />
+          <small class="error"></small>
+
+          <label>No Telepon:</label>
+          <input type="number" id="telepon" required />
+          <small class="error"></small>
+
+          <label>Jenis Kelamin:</label>
+          <select id="gender">
+            <option value="">Pilih</option>
+            <option>Laki-laki</option>
+            <option>Perempuan</option>
+          </select>
+
+          <label>
+            <input type="checkbox" />
+            Saya setuju dengan syarat
+          </label>
+
+          <button type="submit">Daftar</button>
+        </form>
+      </section>
+
+      <!-- DOM ITEM LIST -->
+      <section id="list" class="section">
+        <h2>Daftar Item (DOM)</h2>
+
+        <div class="list-form">
+          <input type="text" id="itemName" placeholder="Nama item" />
+          <input type="number" id="itemHarga" placeholder="Harga" />
+          <button id="addItem">Tambah</button>
+        </div>
+
+        <ul id="itemList" class="order-list"></ul>
+
+        <p id="orderTotal" class="order-total"><b>Total: Rp 0</b></p>
+
+        <button id="checkoutBtn" class="checkout-btn">Checkout</button>
+      </section>
+
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h3>ERTACI CAFE</h3>
+            <p>Nikmati kelezatan masakan khas Melayu yang kaya rasa dan dibuat dengan penuh cinta. Dari makanan hingga minuman segar, kami siap menemani waktu santai dan momen spesial Anda.</p>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Kontak</h4>
+            <p>📍 Medan</p>
+            <p>
+  📞 
+  <a href="https://wa.me/6282273379367" target="_blank">
+    0822-7337-9367
+  </a>
+</p>
+            <p>✉ ertacicafe@email.com</p>
+          </div>
+        </div>
+
+        <p class="footer-bottom">© 2026 ERTACI CAFE | All Rights Reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
+<script src="script.js"></script>
+</body>
+</html>
